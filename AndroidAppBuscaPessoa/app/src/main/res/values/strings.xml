@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppBuscaPessoa versão - 1.0.0</string>
+    <string name="filia_o_m_e">FILIAÇÃO(Mãe):</string>
+    <string name="filia_o_pai">FILIAÇÃO(Pai):</string>
+    <string name="nome">NOME:</string>
+    <string name="n_documento">N°DOCUMENTO:</string>
+    <string name="data">DATA:</string>
+    <string name="n_registro">N° REGISTRO:</string>
+    <string name="endere_o">ENDEREÇO:</string>
+    <string name="institui_o">INSTITUIÇÃO:</string>
+    <string name="cep">CEP:</string>
+    <string name="bairro">BAIRRO:</string>
+    <string name="cidade">CIDADE:</string>
+    <string name="telefone">TELEFONE:</string>
+    <string name="observa_o">OBSERVAÇÃO:</string>
+    <string name="todo">FOTO</string>
+    <string name="imgMensagem">MENSAGEM</string>
+    <string name="infelizmente_n_o_foram_encontrados_registros_para_sua_busca">INFELIZMENTE!\\nNÃO FORAM ENCONTRADOS\\nREGISTROS PARA SUA BUSCA!</string>
+    <string name="verifique_os_dados_nou_tente_novamente_nem_outro_momento">Verifique os dados! Ou tente novamente! Em outro momento!</string>
+    <string name="infelizmente_nn_o_foram_encontrados_nresultados_para_sua_busca">Infelizmente! Não foram encontrados Resultados para sua busca!</string>
+    <string name="polegar">polegar</string>
+    <string name="selecione_as_caracter_sticas">SELECIONE AS CARACTERÍSTICAS</string>
+    <string name="localizar">LOCALIZAR</string>
+    <string name="cadastro_de_usu_rio">CADASTRO DE USUÁRIO</string>
+    <string name="n_mero_de_cpf">Número de CPF</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">CADASTRAR</string>
+
+    <string-array name="lista_genero">
+        <item>SEXO</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <string-array name="lista_idade">
+        <item>IDADE APROXÍMADA</item>
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+    </string-array>
+
+    <string-array name="lista_altura">
+        <item>ALTURA APROXÍMADA</item>
+        <item>1.10</item>
+        <item>1.20</item>
+        <item>1.30</item>
+        <item>1.40</item>
+        <item>1.50</item>
+        <item>1.60</item>
+        <item>1.70</item>
+        <item>1.80</item>
+        <item>1.90</item>
+        <item>2.00</item>
+        <item>2.10</item>
+    </string-array>
+
+    <string-array name="lista_pele">
+        <item>COR DA PELE</item>
+        <item>Amarela</item>
+        <item>Branca</item>
+        <item>Parda</item>
+        <item>Negra</item>
+        <item>Vermelha</item>
+        <item>indefinida</item>
+    </string-array>
+
+    <string-array name="lista_olhos">
+        <item>COR DOS OLHOS</item>
+        <item>Azuis</item>
+        <item>Castanhos claros</item>
+        <item>Castanhos escuros</item>
+        <item>Cinzentos</item>
+        <item>Pretos</item>
+        <item>Desiguais</item>
+        <item>Verdes</item>
+        <item>outros</item>
+    </string-array>
+
+    <string-array name="lista_tipo_cabelo">
+        <item>TIPO DO CABELO</item>
+        <item>Calvice total</item>
+        <item>Carapinha</item>
+        <item>Calvice parcial</item>
+        <item>Liso</item>
+        <item>Encaracolado</item>
+        <item>Ondulado</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string-array name="lista_cor_cabelo">
+        <item>COR DO CABELO</item>
+        <item>Castanhos claros</item>
+        <item>Castanhos escuros</item>
+        <item>Pretos</item>
+        <item>Brancos</item>
+        <item>Grisalho total</item>
+        <item>Grisalho parcial</item>
+        <item>Louros</item>
+        <item>Ruivos</item>
+    </string-array>
+
+
+    <string-array name="lista_fisico">
+        <item>PORTE FISÍCO</item>
+        <item>Forte</item>
+        <item>Atletico</item>
+        <item>Magro</item>
+        <item>Obeso</item>
+    </string-array>
+
+    <string-array name="lista_barba">
+        <item>BARBA</item>
+        <item>Sem barba</item>
+        <item>Nao se aplica</item>
+        <item>Barba cheia</item>
+        <item>Bigode</item>
+        <item>Barba por fazer</item>
+        <item>Cavanhaque</item>
+    </string-array>
+
+    <string-array name="lista_tatuagens">
+        <item>TATUAGENS</item>
+        <item>Abdômen</item>
+        <item>Cabeça</item>
+        <item>Pescoço</item>
+        <item>Costas</item>
+        <item>Braço direito</item>
+        <item>Braço esquerdo</item>
+        <item>Dedos mão direita</item>
+        <item>Dedos mão esquerda</item>
+        <item>Mão direita</item>
+        <item>Mão esquerda</item>
+        <item>Pé direito</item>
+        <item>Pé esquerdo</item>
+        <item>Sem tatuagens</item>
+
+    </string-array>
+
+
+    <string-array name="lista_cicatrizes">
+        <item>CICATRIZES</item>
+        <item>Abdômen</item>
+        <item>Cabeça</item>
+        <item>Pescoço</item>
+        <item>Costas</item>
+        <item>Braço direito</item>
+        <item>Braço esquerdo</item>
+        <item>Dedos mão direita</item>
+        <item>Dedos mão esquerda</item>
+        <item>Mão direita</item>
+        <item>Mão esquerda</item>
+        <item>Pé direito</item>
+        <item>Pé esquerdo</item>
+        <item>Sem cicatrizes</item>
+    </string-array>
+
+    <string-array name="lista_deficiencia">
+        <item>DEFICIÊNCIA</item>
+        <item>Abdômen</item>
+        <item>Cabeça</item>
+        <item>Pescoço</item>
+        <item>Costas</item>
+        <item>Braço direito</item>
+        <item>Braço esquerdo</item>
+        <item>Dedos mão direita</item>
+        <item>Dedos mão esquerda</item>
+        <item>Mão direita</item>
+        <item>Mão esquerda</item>
+        <item>Pé direito</item>
+        <item>Pé esquerdo</item>
+        <item>Sem deficiência</item>
+    </string-array>
+
+
+</resources>
+

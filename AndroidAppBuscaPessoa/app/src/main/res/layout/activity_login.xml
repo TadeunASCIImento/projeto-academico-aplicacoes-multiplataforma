@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    tools:context="br.com.appbuscapessoa.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INSIRA OS DADOS PARA LOGIN"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B"
+        android:textSize="24sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#0B0B0B"
+        android:text="ENTRAR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#0C0C0C"
+        android:onClick="cadastrarUsuario"
+        android:text="CADASTRE-SE"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</LinearLayout>

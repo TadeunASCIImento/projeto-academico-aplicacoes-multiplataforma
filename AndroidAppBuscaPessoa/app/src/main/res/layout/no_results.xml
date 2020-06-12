@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#ECFFFFFF">
+
+    <TextView
+        android:id="@+id/txtMessageBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/verifique_os_dados_nou_tente_novamente_nem_outro_momento"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#B72F34"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvPolegar" />
+
+    <ImageView
+        android:id="@+id/imvPolegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/polegar"
+        app:layout_constraintBottom_toTopOf="@+id/txtMessageBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMenssagemTop"
+        app:srcCompat="@drawable/polegar" />
+
+    <TextView
+        android:id="@+id/txtMenssagemTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/infelizmente_nn_o_foram_encontrados_nresultados_para_sua_busca"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#B72F34"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvPolegar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

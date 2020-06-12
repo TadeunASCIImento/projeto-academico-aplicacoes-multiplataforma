@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        tools:context="br.com.appbuscapessoa.CaracteristicaActivity">
+
+
+        <TextView
+            android:id="@+id/lblCaracteristicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/selecione_as_caracter_sticas"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Spinner
+            android:id="@+id/spinner_genero"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_pele"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_tipo_cabelo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_barba"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_deficiencia"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_altura"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_olhos"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_cor_cabelo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_fisico"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_tatuagens"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinner_cicatrizes"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Spinner
+            android:id="@+id/spinnerIdade"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:backgroundTint="#5166DC" />
+
+        <Button
+            android:id="@+id/btnLocalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="#0B0B0B"
+            android:onClick="enviarDadosFormulario"
+            android:text="@string/localizar"
+            android:textColor="#F0F0F4"
+            android:textSize="24sp"></Button>
+
+    </LinearLayout>
+
+</ScrollView>
