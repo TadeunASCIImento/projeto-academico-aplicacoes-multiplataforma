@@ -2,7 +2,7 @@ package br.com.appbuscapessoa.servicos;
 
 public interface URLConstantsHTTP {
 
-	final String HOST = "http://192.168.0.2:8080/WebServiceRestJerseyDesaparecidos/rest";
+	final String HOST = "http://IP_DO_SERVIDOR:8080/WebServiceRestJerseyDesaparecidos/rest";
 
 	final String URL_VALIDAR_USUARIO = HOST.concat("/usuario/validar");
 
